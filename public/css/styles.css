@@ -3,7 +3,7 @@ body {
     font-family: 'Poppins', sans-serif;
     color: #333333;
     margin: 0;
-    padding: 0;
+    padding: 5rem 0 0 0;
 }
 
 h1, h2, h3 {
@@ -16,8 +16,13 @@ span {
 }
 
 header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     background-color: #9fa9a034;
     display: flex;
+    z-index: 1000;
     padding: 0;
     margin: 0;
 }
