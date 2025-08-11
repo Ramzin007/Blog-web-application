@@ -29,6 +29,10 @@ header {
     color: #6f7470;
 }
 
+h1 a:hover {
+    text-decoration: none;
+}
+
 header nav {
     display: flex;
     justify-content: space-between;
@@ -41,6 +45,7 @@ header nav ul {
     gap: 1rem;
     margin: 0;
     padding: 0;
+    font-size: 17px;
 }
 
 a {
@@ -50,6 +55,19 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 16px;
+    width: 30%;
+    align-items: center;
+}
+
+svg.logo {
+    width: 24px;
+    height: 24px;;
 }
 
 footer {
