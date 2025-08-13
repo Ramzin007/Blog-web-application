@@ -75,12 +75,19 @@ svg.logo {
     height: 24px;;
 }
 
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #9fa9a034;
+}
+
 footer {
     background: #9fa9a034;
     text-align: center;
     color: #6f7470;
     padding: 0.5rem;
-    margin-top: 2rem;
 }
 
 .bebas-neue-regular {
