@@ -83,6 +83,37 @@ svg.logo {
     background-color: #9fa9a034;
 }
 
+.contact-form{
+    width: 80%;
+    max-width: 600px;
+}
+
+input, textarea {
+    margin: 1em;
+    width: 100%;
+    height: 4vh;
+    font-size: large;
+    border: solid 0.1rem #6f7470;
+    border-width: 0 0 0.1rem 0;
+    background-color: transparent;
+}
+
+textarea{
+    height: 10vh;
+    font-size: larger;
+    resize: none;
+}
+
+.submit-btn {
+    width: 100%;
+    height: 4vh;
+    font-size: large;
+    background-color: #0c6e20;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
 footer {
     background: #9fa9a034;
     text-align: center;
