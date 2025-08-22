@@ -9,6 +9,21 @@ body {
 h1, h2, h3 {
     font-family: 'Merriweather', serif;
     color: #1a1a1a;
+    text-align: center;
+}
+
+.about-text {
+    line-height: 2;
+    margin: 0 0 1em 0;
+    padding: 0 5em;
+    text-align: justify;
+    font-size: 1.2em;
+    width: 45%;
+}
+
+#about-img{
+    width: 40%;
+    height: 80%;
 }
 
 span {
@@ -20,18 +35,22 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #9fa9a034;
+    background-color: #e3e5e4;
     display: flex;
+    flex-wrap: wrap;
     z-index: 1000;
     padding: 0;
     margin: 0;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .logo {
-    display: inline;
-    width: 40%;
+    display: inline-block;
+    width: auto;
     padding: 0 10px;
     color: #6f7470;
+    font-size: 1.5rem;
 }
 
 h1 a:hover {
@@ -42,7 +61,7 @@ header nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 30%;
+    width: auto;
 }
 
 header nav ul {
@@ -66,7 +85,7 @@ a:hover {
     display: flex;
     justify-content: flex-end;
     padding: 0 16px;
-    width: 30%;
+    width: auto;
     align-items: center;
 }
 
@@ -80,7 +99,7 @@ svg.logo {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #9fa9a034;
+    background-color: #e3e5e4;
 }
 
 .contact-form{
@@ -128,6 +147,12 @@ footer {
     text-align: center;
     color: #6f7470;
     padding: 0.5rem;
+}
+
+.contact-head{
+    font-family: 'Merriweather', serif;
+    color: #1a1a1a;
+    padding-left: 1.5em;
 }
 
 .bebas-neue-regular {
