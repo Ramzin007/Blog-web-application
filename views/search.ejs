@@ -1,6 +1,25 @@
 <%- include("partials/header") %>
 
-<h1>Welcome to Search Page</h1>
+<h1>Search Results for "<%= query %>"</h1>
+
+<form action="/search" method="get" class="search-form">
+  <input type="text" name="q" value="<%= query %>" placeholder="Search blogs..." />
+  <button type="submit">Search</button>
+</form>
+
+<div class="blog-container">
+  <% if (results.length === 0) { %>
+    <p>No blogs found.</p>
+  <% } else { %>
+    <% results.forEach(blog => { %>
+      <div class="blog-card">
+        <h2><%= blog.title %></h2>
+        <p><%= blog.content %></p>
+        <a href="#">Read More</a>
+      </div>
+    <% }) %>
+  <% } %>
+</div>
 
 <%- include("partials/contact") %>
 <%- include("partials/footer") %>

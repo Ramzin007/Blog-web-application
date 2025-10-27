@@ -1,6 +1,32 @@
-<%- include("partials/header") %>
+<%- include('partials/header') %>
 
-<h1>Welcome to Home Page</h1>
+<section class="hero">
+  <h1>Welcome to My Blog</h1>
+  <p>Discover articles about coding, design, and technology!</p>
+</section>
+
+<section class="blog-container">
+  <div class="blog-card">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaGE-N9FAkAtiwe-OjVUdsW7RcWCyVsGsg3w&s" alt="Blog 1">
+    <h2>How to Use Flexbox in CSS</h2>
+    <p>Learn the basics of Flexbox layout and how to make responsive designs easily.</p>
+    <a href="#">Read More →</a>
+  </div>
+
+  <div class="blog-card">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzPjAwM6BfEH65oOEzQ7m4z_8C0HpuOCdfxw&s" alt="Blog 2">
+    <h2>Understanding CSS Grid</h2>
+    <p>Master modern web layouts with powerful grid-based positioning techniques.</p>
+    <a href="#">Read More →</a>
+  </div>
+
+  <div class="blog-card">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1E1XedjNmXmDUm3rEti2bh3r4TnUGJhH-Lw&s" alt="Blog 3">
+    <h2>JavaScript for Beginners</h2>
+    <p>Start your JavaScript journey and build dynamic, interactive websites!</p>
+    <a href="#">Read More →</a>
+  </div>
+</section>
 
 <%- include("partials/contact") %>
-<%- include("partials/footer") %>
+<%- include('partials/footer') %>
