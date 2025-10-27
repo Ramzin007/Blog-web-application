@@ -22,7 +22,6 @@ It includes pages for Home, About, and Search — designed for simplicity, speed
 | Frontend | HTML, CSS (Flexbox & Grid), EJS Templates |
 | Backend | Node.js, Express.js |
 | View Engine | EJS |
-| Hosting (optional) | Render / Railway |
 
 ---
 
